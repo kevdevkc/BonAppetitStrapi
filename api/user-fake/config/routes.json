@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/user-fakes",
+      "handler": "user-fake.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-fakes/count",
+      "handler": "user-fake.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-fakes/:id",
+      "handler": "user-fake.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/user-fakes",
+      "handler": "user-fake.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/user-fakes/:id",
+      "handler": "user-fake.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/user-fakes/:id",
+      "handler": "user-fake.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
